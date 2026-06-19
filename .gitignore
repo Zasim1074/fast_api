@@ -1,0 +1,59 @@
+# ==========================================
+# FastAPI & Python Projects Gitignore Template
+# ==========================================
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (Always ignore your local venv!)
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & secrets (Crucial for FastAPI security)
+.env
+*.env
+.env.*
+! .env.example
+secrets.toml
+
+# FastAPI / Uvicorn / Gunicorn logs
+*.log
+logs/
+
+# Testing & Coverage reports (pytest)
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.mutmut-cache
+
+# Database files (SQLite / local volumes)
+*.db
+*.sqlite
+*.sqlite3
+/data/
+
+# Linting and Type Checking tools
+.mypy_cache/
+.ruff_cache/
+.black
+.yamlfmt
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
