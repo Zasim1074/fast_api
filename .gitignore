@@ -8,6 +8,7 @@ __pycache__/
 *$py.class
 
 # Virtual environments (Always ignore your local venv!)
+myenv/
 .venv/
 venv/
 ENV/
